@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 9HT7-32.768KDZF-T
+D Crystals 32.768KHz 20ppm 12.5pF
+K
+F https://componentsearchengine.com/Datasheets/2/9HT7-32.768KDZF-T.pdf
+$ENDCMP
+#
+#End Doc Library

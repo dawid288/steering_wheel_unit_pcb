@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ILD206T
+#/186689/1178077/2.50/8/3/Integrated Circuit
+DEF ILD206T IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ILD206T" 850 200 50 H V L CNN
+F2 "SOIC127P610X323-8N" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA15/789331.pdf" 850 0 50 H I L CNN
+F4 "ILD206Tdualtransistor-o/popto-coupler Vishay ILD206T DC Input Phototransistor Output Dual Optocoupler, Surface Mount, 8-Pin SOIC" 850 -100 50 H I L CNN "Description"
+F5 "3.23" 850 -200 50 H I L CNN "Height"
+F6 "782-ILD206T" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/ILD206T?qs=xCMk%252BIHWTZMAZLWxn%2F3yfQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ILD206T" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_1 1 0 0 200 R 50 50 0 0 P
+X C_1 2 0 -100 200 R 50 50 0 0 P
+X A_2 3 0 -200 200 R 50 50 0 0 P
+X C_2 4 0 -300 200 R 50 50 0 0 P
+X C_4 8 1000 0 200 L 50 50 0 0 P
+X E_2 7 1000 -100 200 L 50 50 0 0 P
+X C_3 6 1000 -200 200 L 50 50 0 0 P
+X E_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

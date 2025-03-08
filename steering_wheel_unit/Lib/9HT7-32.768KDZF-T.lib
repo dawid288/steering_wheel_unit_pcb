@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 9HT7-32.768KDZF-T
+#/679588/1178077/2.50/4/4/Crystal or Oscillator
+DEF 9HT7-32.768KDZF-T Y 0 30 Y Y 1 F N
+F0 "Y" 950 300 50 H V L CNN
+F1 "9HT7-32.768KDZF-T" 950 200 50 H V L CNN
+F2 "9HT732768KDZFT" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/9HT7-32.768KDZF-T.pdf" 950 0 50 H I L CNN
+F4 "Crystals 32.768KHz 20ppm 12.5pF" 950 -100 50 H I L CNN "Description"
+F5 "1.4" 950 -200 50 H I L CNN "Height"
+F6 "717-9HT7-32.768KDZFT" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TXC-Corporation/9HT7-32.768KDZF-T?qs=MEJ8UTjcHDlobjP3Uu4Bsg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TXC CORPORATION" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "9HT7-32.768KDZF-T" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X X1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1100 -100 200 L 50 50 0 0 P
+X GND_2 3 1100 0 200 L 50 50 0 0 P
+X X2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

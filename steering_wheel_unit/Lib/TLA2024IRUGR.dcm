@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLA2024IRUGR
+D 12-Bit 4-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications
+K
+F http://www.ti.com/lit/gpn/tla2024
+$ENDCMP
+#
+#End Doc Library
