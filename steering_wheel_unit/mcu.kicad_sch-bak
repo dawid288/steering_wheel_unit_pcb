@@ -3501,8 +3501,16 @@
 		(uuid "fecf543d-c178-40d8-ad1c-18f316be6a0b")
 	)
 	(no_connect
+		(at 193.04 115.57)
+		(uuid "254c3c7f-842f-4293-912f-a7418050bbc8")
+	)
+	(no_connect
 		(at 193.04 118.11)
 		(uuid "4ecea301-9e42-4e74-afa6-ccc04db430af")
+	)
+	(no_connect
+		(at 193.04 113.03)
+		(uuid "90203052-d807-499b-9efa-30b9f3124779")
 	)
 	(no_connect
 		(at 193.04 125.73)
@@ -3620,16 +3628,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 118.11) (xy 191.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f016b9-f103-436a-9dd8-47fe9fefaf81")
-	)
-	(wire
-		(pts
 			(xy 243.84 39.37) (xy 233.68 39.37)
 		)
 		(stroke
@@ -3717,16 +3715,6 @@
 			(type default)
 		)
 		(uuid "214fd630-3be7-486e-bc4d-a5ac697c3a38")
-	)
-	(wire
-		(pts
-			(xy 186.69 115.57) (xy 189.23 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215f1a5a-b313-4db9-b77e-0c70278795e9")
 	)
 	(wire
 		(pts
@@ -3877,16 +3865,6 @@
 			(type default)
 		)
 		(uuid "30306421-67b3-486c-88da-372926d9825e")
-	)
-	(wire
-		(pts
-			(xy 191.77 115.57) (xy 193.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c1f8ed-5371-4eb6-89a3-48a0cb00bef8")
 	)
 	(wire
 		(pts
@@ -4137,16 +4115,6 @@
 			(type default)
 		)
 		(uuid "5833a801-4f23-4086-bbe5-12fa3089074d")
-	)
-	(wire
-		(pts
-			(xy 189.23 115.57) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c33804-74bf-4d62-8ea0-744f076f47e2")
 	)
 	(wire
 		(pts
@@ -4660,16 +4628,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 113.03) (xy 193.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c02c600-fecc-45d2-9cdc-f75b97072f65")
-	)
-	(wire
-		(pts
 			(xy 229.87 100.33) (xy 228.6 100.33)
 		)
 		(stroke
@@ -4907,16 +4865,6 @@
 			(type default)
 		)
 		(uuid "bcd6ca19-ece7-4549-9a5d-89ba04730184")
-	)
-	(wire
-		(pts
-			(xy 186.69 118.11) (xy 191.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be30974b-33b0-4b72-a6fa-a4742e446bd9")
 	)
 	(wire
 		(pts
@@ -5761,17 +5709,6 @@
 		)
 		(uuid "d6934b28-d773-4e11-90df-1c5f799c028a")
 	)
-	(hierarchical_label "CAN_RX_LED"
-		(shape output)
-		(at 186.69 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d876a6a7-a530-4e21-86c6-eb5590128fa0")
-	)
 	(hierarchical_label "LCD_RST"
 		(shape output)
 		(at 191.77 92.71 180)
@@ -5793,17 +5730,6 @@
 			(justify left)
 		)
 		(uuid "e9bd0d2f-beab-4d66-8325-bd0f4c0a7573")
-	)
-	(hierarchical_label "CAN_TX_LED"
-		(shape output)
-		(at 186.69 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb628e08-4461-4164-bb0c-e72573e13db2")
 	)
 	(hierarchical_label "HORN_BUTTON_MCU"
 		(shape input)
@@ -6001,7 +5927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" ""
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -6070,7 +5996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" ""
 			(at 22.5552 49.53 0)
 			(effects
 				(font
@@ -6631,7 +6557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" ""
 			(at 34.29 46.99 0)
 			(effects
 				(font
@@ -7441,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" ""
 			(at 88.5952 52.07 0)
 			(effects
 				(font
@@ -7577,7 +7503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" ""
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -7715,7 +7641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" ""
 			(at 56.8452 49.53 0)
 			(effects
 				(font
@@ -8121,7 +8047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" ""
 			(at 19.812 33.02 90)
 			(effects
 				(font
@@ -8463,7 +8389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" ""
 			(at 85.852 36.83 90)
 			(effects
 				(font
@@ -9136,7 +9062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" ""
 			(at 54.102 33.02 90)
 			(effects
 				(font
