@@ -3954,7 +3954,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dbf75db-ce91-4466-93bc-be117eff128a")
 		(property "Reference" "R7"
-			(at 123.19 58.42 0)
+			(at 123.19 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,8 +3962,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 123.19 60.96 0)
+		(property "Value" "5k"
+			(at 123.19 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
